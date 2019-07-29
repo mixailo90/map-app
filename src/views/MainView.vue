@@ -20,11 +20,13 @@ export default {
   methods: {
     ...mapActions("devices", ["fetchDevices"]),
     ...mapActions("contractors", ["fetchContractors"]),
-    ...mapActions("contractors", ["fetchContractors"])
+    ...mapActions("deviceLocations", ["fetchGeoLocations"]),
+
   },
   async beforeMount() {
     await this.fetchDevices();
     await this.fetchContractors();
+    await this.fetchGeoLocations();
     this.$router.push({ name: "contractors" });
   }
 };

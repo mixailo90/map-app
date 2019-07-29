@@ -40,9 +40,7 @@ export default {
   computed: {
     ...mapGetters("deviceLocations", ["geoLocations", "currentLocations"])
   },
-  async beforeMount() {
-    await this.fetchGeoLocations();
-    await this.fetchContractors();
+  async mounted() {
     this.locations = this.geoLocations;
   }
 };
