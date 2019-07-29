@@ -5,7 +5,7 @@
     dark
     src="https://cdn.vuetifyjs.com/images/backgrounds/bg-2.jpg"
   >
-    <VList dense v-for="navItem in navigationArray" :key="navItem">
+    <VList dense v-for="navItem in navigationArray" :key="navItem.name">
       <NavigationItem :routeData="navItem" />
     </VList>
   </VNavigationDrawer>
