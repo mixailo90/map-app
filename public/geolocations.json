@@ -1,0 +1,208 @@
+[
+  {
+    "id": "5d38e4edf145385c4f730770",
+    "name": "Device 1",
+    "status": "STANDBY",
+    "usedBy": "Contractor 1",
+    "currentLocation": {"lat":44.701850 ,"lng":20.682814 },
+    "locationHistory": [
+      {
+        "location":{
+          "lat": 44.701850,
+          "lng":20.682814}
+      },
+      {
+        "location": {
+          "lat": 46.056318,
+          "lng": 19.692554
+        }
+      },
+      {
+        "location": {
+          "lat": 46.564762,
+          "lng": 15.650570
+        }
+      },
+      {
+        "location": {
+          "lat": 45.311839,
+          "lng": 14.430376
+        }
+      }]
+  },
+  {
+    "id": "5d38e4edb0fa81bc6deb7b5c",
+    "name": "Device 2",
+    "status": "ACTIVE",
+    "usedBy": "Contractor 1",
+    "currentLocation": {"lat": 47.253136,"lng": 2.001925},
+    "locationHistory": [
+      {
+        "location":{
+          "lat": 51.812011,
+          "lng":14.301233}
+      },
+      {
+        "location": {
+          "lat": 50.823289,
+          "lng": 25.722019
+        }
+      },
+      {
+        "location": {
+          "lat": 47.491225,
+          "lng": 38.724144
+        }
+      },
+      {
+        "location": {
+          "lat": 47.253136,
+          "lng": 2.001925
+        }
+      }]
+  },
+  {
+    "id": "5d38e4ed46eb32e58e4389c3",
+    "name": "Device 3",
+    "status": "INACTIVE",
+    "usedBy": "Contractor 2",
+    "currentLocation": {"lat":42.383908 ,"lng":22.293725 },
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4edfc887283efd5524f",
+    "name": "Device 4",
+    "status": "STANDBY",
+    "usedBy": "Contractor 2",
+    "currentLocation": {"lat": 47.983488,"lng": 12.410353},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed020387dd1dc124df",
+    "name": "Device 5",
+    "status": "ACTIVE",
+    "usedBy": "Contractor 3",
+    "currentLocation": {"lat": 46.431232,"lng": 6.831738},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed80fd23c700b2d6ea",
+    "name": "Device 6",
+    "status": "INACTIVE",
+    "usedBy": "Contractor 3",
+    "currentLocation": {"lat": 74.755635,"lng": -36.068126},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4edaa16321d436eeb95",
+    "name": "Device 7",
+    "status": "STANDBY",
+    "usedBy": "Contractor 4",
+    "currentLocation": {"lat": 40.096983,"lng": -3.654589},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed37a59be183539771",
+    "name": "Device 8",
+    "status": "ACTIVE",
+    "usedBy": "Contractor 4",
+    "currentLocation": {"lat":51.660630 ,"lng": 25.248784},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed5d8abf33041c0eee",
+    "name": "Device 9",
+    "status": "INACTIVE",
+    "usedBy": "Contractor 5",
+    "currentLocation": {"lat": 59.673288,"lng": -119.052708},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4edc45cd48854d0f25c",
+    "name": "Device 10",
+    "status": "STANDBY",
+    "usedBy": "Contractor 5",
+    "currentLocation": {"lat": 44.451428,"lng": 25.073041},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed1f6cda1225b845f4",
+    "name": "Device 11",
+    "status": "ACTIVE",
+    "usedBy": "Contractor 6",
+    "currentLocation": {"lat": 51.496775,"lng": -0.667653},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4eddbb8df7523d5e64e",
+    "name": "Device 12",
+    "status": "INACTIVE",
+    "usedBy": "Contractor 6",
+    "currentLocation": {"lat": 52.791137,"lng": -7.871533},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed7e13a1f75c50645b",
+    "name": "Device 13",
+    "status": "STANDBY",
+    "usedBy": "Contractor 7",
+    "currentLocation": {"lat": 38.242495,"lng": 32.036464},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4edc806262086c4e4ff",
+    "name": "Device 14",
+    "status": "ACTIVE",
+    "usedBy": "Contractor 7",
+    "currentLocation": {"lat": 36.425703,"lng": 44.335771},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed01753adad98dc0bc",
+    "name": "Device 15",
+    "status": "INACTIVE",
+    "usedBy": "Contractor 8",
+    "currentLocation": {"lat": 56.246402,"lng": 24.832583},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed405591b51ec02868",
+    "name": "Device 16",
+    "status": "STANDBY",
+    "usedBy": "Contractor 8",
+    "currentLocation": {"lat": 52.779509,"lng": 49.615588},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4edf77c81eac1b7c96e",
+    "name": "Device 17",
+    "status": "ACTIVE",
+    "usedBy": "Contractor 9",
+    "currentLocation": {"lat": 34.420505,"lng": 42.938821},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4edd59ee7ac306bb627",
+    "name": "Device 18",
+    "status": "INACTIVE",
+    "usedBy": "Contractor 9",
+    "currentLocation": {"lat": 19.901054,"lng": 8.200159},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed54bd2b982e614eb1",
+    "name": "Device 19",
+    "status": "STANDBY",
+    "usedBy": "Contractor 10",
+    "currentLocation": {"lat": 65.187641,"lng": -21.669588},
+    "locationHistory": []
+  },
+  {
+    "id": "5d38e4ed839b5918e88b601a",
+    "name": "Device 20",
+    "status": "ACTIVE",
+    "usedBy": "Contractor 10",
+    "currentLocation": {"lat": 50.909961,"lng": -81.395557},
+    "locationHistory": []
+  }
+]
