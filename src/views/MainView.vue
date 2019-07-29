@@ -20,8 +20,7 @@ export default {
   methods: {
     ...mapActions("devices", ["fetchDevices"]),
     ...mapActions("contractors", ["fetchContractors"]),
-    ...mapActions("deviceLocations", ["fetchGeoLocations"]),
-
+    ...mapActions("deviceLocations", ["fetchGeoLocations"])
   },
   async beforeMount() {
     await this.fetchDevices();
