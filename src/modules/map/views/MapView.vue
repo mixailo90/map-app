@@ -38,10 +38,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters("deviceLocations", ["geoLocations", "currentLocations"])
-  },
-  async mounted() {
-    this.locations = this.geoLocations;
+    ...mapGetters("deviceLocations", ["geoLocations"])
   }
 };
 </script>

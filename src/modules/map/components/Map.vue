@@ -14,12 +14,15 @@ export default {
   },
   watch: {
     locations: {
-      immediate: true,
+      immediate: false,
       handler(val) {
-        this.mapLocations = val;
-        this.removeMarkers();
-        this.createMarkers();
-      }
+        if (val !== null) {
+          this.mapLocations = val;
+          this.removeMarkers();
+          this.createMarkers();
+        }
+      },
+      deep: true
     }
   },
   data() {
@@ -93,6 +96,7 @@ export default {
       });
       this.directionsService = new this.google.maps.DirectionsService();
       this.directionsDisplay = new this.google.maps.DirectionsRenderer();
+      this.createMarkers();
     } catch (error) {
       console.error(error);
     }

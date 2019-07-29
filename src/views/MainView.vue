@@ -23,8 +23,6 @@ export default {
     ...mapActions("deviceLocations", ["fetchGeoLocations"])
   },
   async beforeMount() {
-    await this.fetchDevices();
-    await this.fetchContractors();
     await this.fetchGeoLocations();
     this.$router.push({ name: "contractors" });
   }
