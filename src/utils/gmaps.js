@@ -4,8 +4,6 @@ const CALLBACK_NAME = "gmapsCallback";
 let initialized = !!window.google;
 let resolveInitPromise;
 let rejectInitPromise;
-// This promise handles the initialization
-// status of the google maps script.
 const initPromise = new Promise((resolve, reject) => {
   resolveInitPromise = resolve;
   rejectInitPromise = reject;
