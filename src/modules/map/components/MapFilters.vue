@@ -67,18 +67,14 @@ export default {
       }
       if (this.selectedStatus === null) {
         this.filteredDeviceLocations = this.deviceLocations.filter(item =>
-          this.selectedContractors.find(
-            contractor => contractor === item.usedBy
-          )
+          this.selectedContractors.includes(item.usedBy)
         );
       }
       if (this.selectedContractors.length > 0 && this.selectedStatus !== null) {
         this.filteredDeviceLocations = this.deviceLocations.filter(
           item =>
             item.status === this.selectedStatus &&
-            this.selectedContractors.find(
-              contractor => contractor === item.usedBy
-            )
+            this.selectedContractors.includes(item.usedBy)
         );
       }
       this.$emit("sendLocations", this.filteredDeviceLocations);
