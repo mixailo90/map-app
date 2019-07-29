@@ -59,6 +59,7 @@ export default {
       );
     },
     calculateAndDisplayRoute(directionsService, directionsDisplay, waypoints) {
+      directionsDisplay.setMap(this.map);
       directionsService.route(
         {
           origin: waypoints[0],
@@ -92,7 +93,6 @@ export default {
       });
       this.directionsService = new this.google.maps.DirectionsService();
       this.directionsDisplay = new this.google.maps.DirectionsRenderer();
-      this.directionsDisplay.setMap(this.map);
     } catch (error) {
       console.error(error);
     }
